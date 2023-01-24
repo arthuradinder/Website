@@ -54,7 +54,7 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: var(--secondary-color);
+  color: #FFFFFF;
 
 
   line-height: 0;
@@ -62,7 +62,7 @@ h6 {
 
 .back-to-top:hover {
   background: #0678e3;
-  color: var(--secondary-color);
+  color: #0563bb;
 
 
 }
@@ -83,7 +83,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: var(--secondary-color);
+  background: #0563bb;
 
 
 }
@@ -547,7 +547,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--secondary-color);
+  background-color: #0563bb;
 }
 
 /*--------------------------------------------------------------
@@ -843,15 +843,7 @@ section {
   width: 30px;
   cursor: pointer;
 }
-:root{
 
-  --primary-color: #edf2fc;
-  --secondary-color: var(--secondary-color);
-}
-.dark-theme{
-  --primary-color: #000106;
-  --secondary-color: #212121;
-}
 
 
 /*--------------------------------------------------------------
@@ -1258,8 +1250,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
-  color: var(--secondary-color);
+  background: #FFFFFF;
+  color: #45505b;
 
 
   line-height: 1;
@@ -1274,7 +1266,7 @@ section {
 
 #footer .social-links a:hover {
   background: #0678e3;
-  color: var(--secondary-color);
+  color: #0563bb;
 
 
   text-decoration: none;
