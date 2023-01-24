@@ -18,6 +18,11 @@
       return document.querySelector(el)
     }
   }
+  /**Dark mode */
+  function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
 
   /**
    * Easy event listener function

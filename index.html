@@ -771,12 +771,14 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script>
-    var icon= document.getElementById("icon");
-    icon.onclick = function(){
-      document.body.classList.toggle("dark-theme");
-    }
-  </script>
+  <button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 
 </body>
 
